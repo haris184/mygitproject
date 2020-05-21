@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MavenProject by packages]">
+  <test thread-count="5" name="softwareTestingMaterial(failed)">
+    <classes>
+      <class name="softwareTestingMaterial.STMTestNGClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="openMyBlog"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- softwareTestingMaterial.STMTestNGClass -->
+    </classes>
+  </test> <!-- softwareTestingMaterial(failed) -->
+</suite> <!-- Failed suite [MavenProject by packages] -->
